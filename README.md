@@ -19,24 +19,24 @@ To practice object oriented programming (OOP), you're going to create a Person c
 - state if they are happy and/or clean
 
 ## Instructions
-
-- First you need to create a person class that is initialized with a name that cannot be changed.
-- Each instance of class `Person`should be able to remember their name
-- Each instance of  class `Person` should start with $25 in their bank accounts
-- Each instance of  class `Person` should start with eight happiness points
-- Each instance of  class `Person` should start with eight hygiene points
-- The happiness and hygiene points should be able to change, however the maximum and minimum points for both happiness and hygiene should be 10 and  0 respectively
-- The amount in the bank account should also be able to change, though it has no max or min.
+<!-- 
+- First you need to create a person class that is initialized with a name that cannot be changed. -->
+<!-- - Each instance of class `Person`should be able to remember their name -->
+<!-- - Each instance of  class `Person` should start with $25 in their bank accounts -->
+<!-- - Each instance of  class `Person` should start with eight happiness points -->
+<!-- - Each instance of  class `Person` should start with eight hygiene points -->
+<!-- - The happiness and hygiene points should be able to change, however the maximum and minimum points for both happiness and hygiene should be 10 and  0 respectively -->
+<!-- - The amount in the bank account should also be able to change, though it has no max or min. -->
 
 ##### Non-attribute defining instance methods
 
-1. The `clean?` and `happy?` methods are pretty similiar: they should return `true` if the happiness or hygiene points exceed seven. Otherwise they should return false.
+<!-- 1. The `clean?` and `happy?` methods are pretty similiar: they should return `true` if the happiness or hygiene points exceed seven. Otherwise they should return false. -->
 
-2. The `get_paid` method should accept a salary amount and add this to the person's bank account. Then the method should return the string "all about the benjamins".
+<!-- 2. The `get_paid` method should accept a salary amount and add this to the person's bank account. Then the method should return the string "all about the benjamins". -->
 
-3. The `take_bath` method should increment the person's hygiene points by four and return the string "♪ Rub-a-dub just relaxing in the tub ♫".
+<!-- 3. The `take_bath` method should increment the person's hygiene points by four and return the string "♪ Rub-a-dub just relaxing in the tub ♫". -->
 
-4. The `work_out` method should increment the person's happiness by two points, decrease their hygiene by three points, and return the Queen lyrics, "♪ another one bites the dust ♫".
+<!-- 4. The `work_out` method should increment the person's happiness by two points, decrease their hygiene by three points, and return the Queen lyrics, "♪ another one bites the dust ♫". -->
 
 5. The `call_friend` method should accept another instance of the Person class, or "friend". The method should increment the caller and the callee's happiness points by three. If Stella calls her friend Felix, the method should return "Hi Felix! It's Stella. How are you?"
 
